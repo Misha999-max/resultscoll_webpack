@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto' sans-serif;
+    color: aliceblue;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_foto {
+    display: block;
+    margin: 30px auto;
+    transition: all .3s ease-in-out;
+}
+.logo_foto:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px solid red;
+}
+
+.hidden_desc{
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
